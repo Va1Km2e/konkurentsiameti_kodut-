@@ -26,3 +26,6 @@ Lõpuks teen selle info põhjal graafiku, kus on tundide hinnad joonistatud ja n
 Olemasolev skript tuleks täiendada nii, et kogutud andmed salvestataks automaatselt andmebaasi, mis võimaldab andmete pikaajalist salvestamist. Andmebaasina võib kasutada näiteks SQL-põhist lahendust.
 
 Lisaks oleks oluline rakendada ajastustööriistu, nagu cron Linuxi keskkonnas või Windows Task Scheduler, mis võimaldavad skripti automaatselt kindlatel aegadel päevas käivitada. See tagab andmete regulaarse ja automaatse uuendamise ilma käsitsi sekkumiseta.
+
+Sammuti tuleks muuta skripti nii, et `CHROMEDRIVER_PATH` oleks seadistatav vastavalt masina keskkonnale, võimaldades seda kas automaatselt tuvastada või manuaalselt seadistada vastavalt masina vajadustele.
+
