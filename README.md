@@ -19,3 +19,8 @@ Seejärel otsin kindla tabeli kõik read, mis sisaldavad tundide ja hindade info
 
 Lõpuks teen selle info põhjal graafiku, kus on tundide hinnad joonistatud ja näidatud ka keskmine hind. Graafik on selge ja aitab näha, kuidas hind päeva jooksul muutus.
 ![Andmete visualiseerimis graafik](elektrihindade_andmete_visualiseering.png)
+
+# Mida vaja teha, et skripti automatiseerida
+Olemasolev skript tuleks täiendada nii, et kogutud andmed salvestataks automaatselt andmebaasi, mis võimaldab andmete pikaajalist. Andmebaasina võib kasutada näiteks SQL-põhist lahendust.
+
+Lisaks oleks oluline rakendada ajastustööriistu, nagu cron Linuxi keskkonnas või Windows Task Scheduler, mis võimaldavad skripti automaatselt kindlatel aegadel päevas käivitada. See tagab andmete regulaarse ja automaatse uuendamise ilma käsitsi sekkumiseta.
