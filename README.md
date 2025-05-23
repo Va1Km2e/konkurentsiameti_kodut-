@@ -6,10 +6,10 @@ Töö teostamiseks valisin Python-i, kuna see on mulle tuttav ja sobib andmete k
 
 Kasutasin järgmisi teeke:
 
-- **Selenium** – veebilehe dünaamiliseks laadimiseks ja elementide leidmiseks
-- **BeautifulSoup** – HTML-andmete töötlemiseks ja vajaliku info väljatõmbamiseks
-- **Pandas** – andmete töötlemiseks ja analüüsimiseks
-- **Matplotlib** – andmete visualiseerimiseks graafikuna
+- **Selenium** - veebilehe dünaamiliseks laadimiseks ja elementide leidmiseks
+- **BeautifulSoup** - HTML andmete töötlemiseks ja vajaliku info väljatõmbamiseks
+- **Pandas** - andmete töötlemiseks ja analüüsimiseks
+- **Matplotlib** - andmete visualiseerimiseks graafikuna
 
 Järgmisena panin paika keskkonna ning tegin esimese “request”-i, et kontrollida, et kõik töötaks. Seejärel leidsin HTML-koodist elemente, mis esinevad võimalikult vähe ning asuvad andmetele võimalikult lähedal, et tagada täpne andmete kogumine.
 
