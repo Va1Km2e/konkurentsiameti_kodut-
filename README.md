@@ -2,6 +2,8 @@
 
 Alustasin tööga, uurides Nord Pooli elektrihindade veebilehte. Kasutasin veebibrauseri "Inspect element" tööriista, et analüüsida lehe struktuuri ja tuvastada vajalikud HTML-elemendid, mida hiljem andmete kogumisel kasutada.
 
+Uurimise käigus avastasin, et kui saata Nord Pooli API-le päring vastavate sisenditega, siis too tagastab JSON formaadis andmed. Kuna antud lahendus ei vasta täpselt traditsioonilisele web scraping definitsioonile, otsustasin töö raames keskenduda siiski lehelt päringu tegemisele ja HTML-parsimisele.
+
 Töö teostamiseks valisin Python-i, kuna see on mulle tuttav ja sobib andmete kogumiseks ja töötlemiseks. Kuigi varasemalt on mul väike kokkupuude teemaga olnud, otsustasin enne töö alustamist teemasse uuesti süveneda ja uurida parimaid praktikaid.
 
 Kasutasin järgmisi teeke:
